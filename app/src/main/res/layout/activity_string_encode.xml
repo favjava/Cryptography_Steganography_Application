@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    >
+
+    <TextView
+        android:id="@+id/encode_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENCODE"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#CA2828"
+        android:textSize="40sp"
+
+        />
+    <TextView
+        android:id="@+id/viewtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/encode_txt"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textColor="#FF1744"
+        android:text="@string/viewtext"
+
+        />
+
+    <EditText
+        android:id="@+id/encode_text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/viewtext"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="3dp"
+    android:backgroundTint="#636262"
+        android:textSize="15sp"
+        android:hint="Enter your message"
+        android:textColor="#000000"
+        android:textColorHint="#B1AFAF"
+        android:padding="20dp"
+        android:background="@drawable/textfield_rounded_corner"/>
+
+    <Button
+        android:id="@+id/encode_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Encode"
+        android:background="@drawable/round_corners"
+        android:layout_below="@+id/encode_text"
+        android:backgroundTint="#F44336"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+
+    <EditText
+        android:id="@+id/finalencodetext"
+        android:layout_below="@id/encode_btn"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:hint="Your Encoded message"
+        android:layout_marginTop="40dp"
+        android:textColorHint="#AAA9A9"
+        android:backgroundTint="#4C4B4B"
+        android:textColor="#FFFDFD"
+        android:layout_marginLeft="3dp"
+
+        android:textSize="15sp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/textfield_rounded_corner"
+        />
+
+    <Button
+        android:id="@+id/encode_copy_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/finalencodetext"
+        android:background="@drawable/copy_button"
+        android:backgroundTint="#DD4141"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Copy"
+        android:padding="15dp"
+        />
+
+</RelativeLayout>

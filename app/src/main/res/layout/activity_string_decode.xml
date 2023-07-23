@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    >
+
+    <TextView
+        android:id="@+id/encode_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DECODE"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#1976D2"
+        android:textSize="40sp"
+
+        />
+    <TextView
+        android:id="@+id/viewtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/encode_txt"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textColor="#FF1744"
+        android:text="@string/viewtextDecode"
+
+        />
+
+    <EditText
+
+        android:id="@+id/decode_text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/viewtext"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:hint="Enter your message"
+        android:textColorHint="#9F9E9E"
+        android:backgroundTint="#595757"
+        android:padding="10dp"
+        android:background="@drawable/textfield_rounded_corner"
+
+            />
+
+    <Button
+        android:id="@+id/decode_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Decode"
+
+        android:background="@drawable/round_corners"
+        android:layout_below="@+id/decode_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+
+    <EditText
+        android:id="@+id/finaldecodetext"
+        android:layout_below="@id/decode_btn"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:textColor="#FFFFFF"
+        android:hint="Your decoded message"
+        android:layout_marginTop="40dp"
+        android:textColorHint="#A8A7A7"
+        android:backgroundTint="#323131"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/textfield_rounded_corner"
+
+        />
+
+    <Button
+        android:id="@+id/decode_copy_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/finaldecodetext"
+        android:background="@drawable/copy_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Copy"
+        android:padding="15dp"
+        />
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Image-Steganography.iml" filepath="$PROJECT_DIR$/.idea/modules/Image-Steganography.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ImageSteganographyLibrary/Image-Steganography.ImageSteganographyLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/ImageSteganographyLibrary/Image-Steganography.ImageSteganographyLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ImageSteganographyLibrary/Image-Steganography.ImageSteganographyLibrary.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/ImageSteganographyLibrary/Image-Steganography.ImageSteganographyLibrary.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ImageSteganographyLibrary/Image-Steganography.ImageSteganographyLibrary.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ImageSteganographyLibrary/Image-Steganography.ImageSteganographyLibrary.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ImageSteganographyLibrary/Image-Steganography.ImageSteganographyLibrary.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/ImageSteganographyLibrary/Image-Steganography.ImageSteganographyLibrary.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Image-Steganography.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Image-Steganography.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Image-Steganography.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Image-Steganography.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Image-Steganography.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Image-Steganography.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Image-Steganography.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Image-Steganography.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

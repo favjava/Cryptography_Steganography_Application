@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <TextView
+        android:id="@+id/crypto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+
+        android:text="Cryptography"
+        android:textSize="40sp"
+        android:textColor="#40B4F3"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+
+        android:layout_centerHorizontal="true"
+
+        />
+    <ImageView
+        android:id="@+id/icon_secret_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/our_secret"
+        android:layout_below="@id/crypto"
+        android:layout_marginTop="30dp"
+        android:padding="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/round_corner_button"
+        android:adjustViewBounds="true"/>
+
+    <Button
+        android:id="@+id/stringcryptography"
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/icon_secret_chat"
+
+        android:background="@drawable/round_corners"
+        android:text="String Cryptography"
+        android:backgroundTint="#FF1744"
+
+        android:layout_marginTop="300dp"
+        android:hapticFeedbackEnabled="true"
+        />
+
+    <Button
+        android:id="@+id/steganography"
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:background="@drawable/round_corners"
+        android:backgroundTint="#00B0FF"
+        android:text="Steganography"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/icon_secret_chat"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_alignRight="@id/stringcryptography"
+        android:hapticFeedbackEnabled="true"
+        android:clickable="true"
+        android:layout_marginTop="300dp"
+        android:focusable="true" />
+
+
+
+</RelativeLayout>
